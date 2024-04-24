@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "754363936498",
+    "firebase_url": "https://lestari-9d0d4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lestari-9d0d4",
+    "storage_bucket": "lestari-9d0d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754363936498:android:7571f86a0de511a4c82a6b",
+        "android_client_info": {
+          "package_name": "com.example.lestari"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADMtqm3wSxVeuEIpNRjKIuKO4taqYaB30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

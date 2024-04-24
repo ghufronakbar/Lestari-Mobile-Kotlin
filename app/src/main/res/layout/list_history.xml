@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="220dp"
+    android:id="@+id/cvListHistory"
+    app:cardBackgroundColor="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:padding="10dp"
+    android:layout_marginVertical="3dp"
+    android:layout_marginHorizontal="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <ImageView
+                android:id="@+id/ivListHistory"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/satwa_image"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/tvLatinHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corvus Enca"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_bold"
+                android:maxLines="1"
+                />
+            <TextView
+                android:id="@+id/tvLocHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleman"
+                android:textColor="@color/gray2"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="1"
+                />
+            <TextView
+                android:id="@+id/tvLongLangHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-7.746616, 110.359437"
+                android:textColor="@color/gray2"
+                android:textSize="7sp"
+                android:fontFamily="@font/poppins_italic"
+                android:maxLines="1"
+                />
+            <TextView
+                android:id="@+id/tvLocalHistory"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gagak Hitam"
+                android:textColor="@color/gray2"
+                android:textSize="13sp"
+                android:fontFamily="@font/poppins_medium"
+                android:maxLines="1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
